@@ -3,7 +3,6 @@ import "./index.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import Message from "./Message";
-import ReactMarkdown from "react-markdown";
 
 const submitElement = <FontAwesomeIcon icon={faPaperPlane} />;
 
