@@ -88,7 +88,7 @@ function App() {
           ))}
         </section>
         <section className="inputbar">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} className="form">
             <input
               type="text"
               id="inputbar"

@@ -60,6 +60,12 @@
   background-color: black;
   height: 3rem;
   width: 100%;
+  min-width: 0px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 #inputbar {
   border-radius: 15px;
@@ -68,7 +74,7 @@
   background-color: black;
   color: white;
   height: 2rem;
-  width: 50rem;
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   margin-right: 1rem;
